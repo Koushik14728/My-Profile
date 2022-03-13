@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+  margin: 0;
+  padding: 0;
+  background: url("Img/index.jpg")no-repeat;
+ /* background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.2)), url("Img/index.jpg");*/
+  background-size: cover;
+}
+.box{
+  width: 450px;
+ /* background: rgba(0, 0, 0, 0.5);*/
+  padding: 30px;
+  text-align: center;
+  margin: auto;
+  margin-top: 3%;
+  color: white;
+	background: rgba(0, 0, 0, 0.5);
+	/*box-shadow:  50px 5px rgba(0,0,0,0.1);*/
+	border: 1px solid rgba(255,255,255,0.5);
+	border-right: 1px solid rgba(255,255,255,0.2);
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+	border-radius: 10px;
+	z-index: 10px;
+	backdrop-filter: blur(10px);
+ /* font-family: 'Akronim', cursive;*/
+}
+.box-img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  
+  /*color: #FF2498;
+  width: 50px;
+  height: 50px;*/
+  display: center;
+  justify-content: center;
+  align-items: center;
+  border:2px solid #FF2498;
+  font-size: 20px;
+  transition: all 0.1s;
+}
+.box-img:hover{
+  border-color: #FCF956;
+  box-shadow: 0 0 100px #56FCF3;
+}
+.box h1{
+ /* font-family: 'Akronim', cursive;
+  color:  #00C3FF ;
+  font-size: 70px;
+  letter-spacing: 7px;
+  font-weight: 100;*/
+	margin-top: 3%;
+	font-size: 5em;
+    font-family: 'Akronim', cursive;
+	font-weight: 200;
+    background: linear-gradient(#FFFE00 , #00FFFD  );
+	letter-spacing: 3px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+h2{
+	margin-top: -70px;
+	font-size: 2em;
+	font-weight: 5;
+	color: #4C4C4C;
+	letter-spacing: 5px;
+	cursor: pointer;
+	
+}
+h2 span{
+	transition: .5s;
+	transform: scale(1.15);
+}
+h2:hover span:nth-child(1){
+	margin-right: 10px;
+}
+h2:hover span:nth-child(1)::after {
+	content: "";
+}
+
+h2:hover span:nth-child(2){
+	margin-left: 10px;
+}
+h2:hover span{
+	color: #fff;
+	text-shadow: 
+	0 0 5px #fff,
+	0 0 8px #FF00E7,
+	0 0 9px #fff,
+	
+	0 0 15px #FF0000;
+	
+}
+.box h5{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.box p{
+  text-align:justify;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.box li{
+  display: inline-block;
+  margin: 10px;
+  list-style: none;
+}
+.box li a{
+  color: white;
+  text-decoration: none;
+  font-size: 45px;
+  transition: all ease-in-out 250ms;
+	
+}
+.box li a:hover{
+  color: #0029FF;
+}
